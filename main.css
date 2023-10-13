@@ -1,14 +1,14 @@
 body{
-    background-color: turquoise;
+    background-color: #8ba6ca;
 }
 #geralt-image{
-    width: 90%;
+    width: 70%;
     height: auto;
     border-radius: 50%;
-    border: 5px solid purple;
+    border: 5px solid #323a45;
 }
 #yennifer-image{
-    width: 80%;
+    width: 50%;
     height: auto;
     border-radius: 50%;
 }
@@ -20,7 +20,7 @@ body{
     font-size: 20px;
 }
 .lists{
-    color: red;
+    color: purple ;
 }
 #geralt-section{
     margin-left: 5%;
@@ -31,22 +31,33 @@ body{
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    border: 5px solid purple;
+    border: 5px solid #323a45;
    }
 .grid-item{
-    border: 2px solid purple;
+    border: 2px solid #323a45;
+}
+@media screen and (min-width: 993px) {
+    p {
+        font-size: 100px;
+    }
 }
 @media screen and (max-width: 992px) {
     .grid-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        border: 5px solid purple;
+        border: 5px solid #323a45;
+    }
+    p{
+        font-size: 60px;
     }
 }
 @media screen and (max-width: 600px){
     .grid-container {
         display: grid;
         grid-template-columns: 1fr;
-        border: 5px solid purple;
+        border: 5px solid #323a45;
+    }
+    p{
+        font-size: 30px;
     }
 }
