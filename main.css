@@ -1,0 +1,52 @@
+body{
+    background-color: turquoise;
+}
+#geralt-image{
+    width: 90%;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid purple;
+}
+#yennifer-image{
+    width: 80%;
+    height: auto;
+    border-radius: 50%;
+}
+.header{
+    font-family: Helvetica;
+    text-align: center;
+}
+.url{
+    font-size: 20px;
+}
+.lists{
+    color: red;
+}
+#geralt-section{
+    margin-left: 5%;
+}
+#yennifer-section{
+    margin-left: 10%;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 5px solid purple;
+   }
+.grid-item{
+    border: 2px solid purple;
+}
+@media screen and (max-width: 992px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        border: 5px solid purple;
+    }
+}
+@media screen and (max-width: 600px){
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        border: 5px solid purple;
+    }
+}
